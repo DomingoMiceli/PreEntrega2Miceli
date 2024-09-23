@@ -7,3 +7,19 @@
 img{
     width: 25vw;
 }
+
+.boton-finalizar-compra {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D3D3D3; /* Cambiado a un gris claro */
+    color: #333; /* Cambiado el color del texto para mejor contraste */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.boton-finalizar-compra:hover {
+    background-color: #BEBEBE; /* Un gris ligeramente más oscuro para el efecto hover */
+}
